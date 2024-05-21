@@ -23,6 +23,7 @@
 \*-----------------------------------*/
 
 .portfolio {
+  
   background-color: var(--maximum-yellow-red_a10);
   padding-block-start: calc(var(--section-padding) + 60px);
 }
@@ -74,6 +75,7 @@
   padding: 6px 20px;
   border-radius: var(--radius-pill);
   margin-block-end: 18px;
+  display: inline-block
 }
 
 .portfolio-card .card-text { margin-block: 10px 25px; }
@@ -81,6 +83,10 @@
 
 
 
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
 
 /*-----------------------------------*\
   #MEDIA QUERIES
