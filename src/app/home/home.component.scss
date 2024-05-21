@@ -67,8 +67,14 @@
   #CLIENT
 \*-----------------------------------*/
 
+h5 {
+  color: var(--jet);
+  font-size: 50px;
+  padding-bottom: 25px;
+}
+
 .client {
-  background-color: var(--jet);
+  background-color:lightblue;
   padding-block: 30px;
 }
 
