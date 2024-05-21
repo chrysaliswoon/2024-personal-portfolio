@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('./styles/btn.component.scss');
+@import url('./styles/card.component.scss');
+@import url('./styles/properties.component.scss');
+@import url('./styles/slider.component.scss');
+
+/*-----------------------------------*\
+  Website Components
+\*-----------------------------------*/
+
+@import url('./app/header/header.component.scss');
+@import url('./app/home/home.component.scss');
+@import url('./app/portfolio/portfolio.component.scss');
+
