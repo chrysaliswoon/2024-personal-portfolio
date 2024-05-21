@@ -377,7 +377,10 @@ body.loaded { overflow: visible; }
   margin-block-end: 15px;
 }
 
-.social-link { font-size: 1.8rem; }
+.social-link { 
+  font-size: 1.8rem;
+  color: white;
+}
 
 .social-link:is(:hover, :focus-visible) { color: var(--orange-red); }
 
